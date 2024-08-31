@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<Html>
+<Head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
+</Head>
+<Body>
+    <header>
+        <center>
+            <a href="/Home/Index" class="btn btn-primary">Home</a>
+            <a href="/Home/AboutUs" class="btn btn-dark">AboutUs</a>
+            <a href="/Home/ContactUs" class="btn btn-danger">ContactUs</a>
+            <a href="/Home/Privacy" class="btn btn-secondary">Privacy</a>
+        </center>
+    </header>
+    <div>
+        @RenderBody()
+    </div>
+
+    <footer class ="fixed-bottom">
+        <center>
+            Copyrights &copy; Route Academy @DateTime.Now. Year
+        </center>
+    </footer>
+</Body>
+</Html>
