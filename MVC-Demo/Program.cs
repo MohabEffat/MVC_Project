@@ -4,6 +4,7 @@ namespace MVC_Demo
     {
         public static void Main(string[] args)
         {
+            //Session02_Branch
             var builder = WebApplication.CreateBuilder(args);
 
             builder.Services.AddControllersWithViews();
